@@ -1,4 +1,7 @@
 package Minimum_Depth_of_Binary_Tree_111;
+import TreeNode.TreeNode;
+import java.util.Queue;
+import java.util.LinkedList;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,8 +17,6 @@ package Minimum_Depth_of_Binary_Tree_111;
  *     }
  * }
  */
-import java.util.Queue;
-import java.util.LinkedList;
 class Solution {
     //Approach is to use BFS and stop when we find our first leaf node.
     public int minDepth(TreeNode root) {
